@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saim Alvi | Junior Web Developer</title>
+    <meta name="description"
+        content="Portfolio of Saim Alvi, a passionate Junior Web Developer specializing in modern web experiences.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">Saim.</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact" class="btn-primary">Contact Me</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section id="hero" class="hero">
+            <div class="container hero-container">
+                <div class="hero-content fade-in-up">
+                    <span class="greeting">Hello, I'm</span>
+                    <h1>Saim Alvi</h1>
+                    <p class="subtitle">Junior Web Developer & UI/UX Enthusiast</p>
+                    <p class="description">
+                        I craft beautiful, responsive, and user-friendly web experiences.
+                        Passionate about turning ideas into reality through code.
+                    </p>
+                    <div class="hero-btns">
+                        <a href="#projects" class="btn-primary">View Work</a>
+                        <a href="#contact" class="btn-secondary">Get in Touch</a>
+                    </div>
+                </div>
+                <div class="hero-image fade-in-up delay-200">
+                    <div class="image-wrapper">
+                        <img src="profile.jpg" alt="Saim Alvi">
+                        <div class="blob"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <div class="about-text reveal">
+                        <p>
+                            I am a dedicated Junior Web Developer with a strong foundation in HTML, CSS, and JavaScript.
+                            My journey in tech is driven by a curiosity to learn and a desire to build impactful digital
+                            solutions.
+                        </p>
+                        <p>
+                            I focus on writing clean, efficient code and designing interfaces that are not only visually
+                            appealing
+                            but also intuitive to use. I am constantly exploring new technologies and frameworks to
+                            enhance my skillset.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section bg-light">
+            <div class="container">
+                <h2 class="section-title">My Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-card reveal">
+                        <div class="icon">🌐</div>
+                        <h3>Frontend Dev</h3>
+                        <p>HTML5, CSS3, JavaScript (ES6+)</p>
+                    </div>
+                    <div class="skill-card reveal delay-100">
+                        <div class="icon">🎨</div>
+                        <h3>UI Design</h3>
+                        <p>Responsive Layouts, Animations, Accessibility</p>
+                    </div>
+                    <div class="skill-card reveal delay-200">
+                        <div class="icon">🛠️</div>
+                        <h3>Tools</h3>
+                        <p>Git, VS Code, Chrome DevTools</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <div class="container">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="projects-grid">
+                    <!-- Placeholder Project 1 -->
+                    <div class="project-card reveal">
+                        <div class="project-image">
+                            <div class="placeholder-img"
+                                style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);"></div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Medical Portal (SA Pharma)</h3>
+                            <p>A login interface designed for a pharmaceutical company, focusing on security and user
+                                experience.</p>
+                            <div class="tags">
+                                <span>HTML</span><span>CSS</span><span>JS</span>
+                            </div>
+                            <a href="#" class="btn-link">View Project &rarr;</a>
+                        </div>
+                    </div>
+                    <!-- Placeholder Project 2 -->
+                    <div class="project-card reveal delay-100">
+                        <div class="project-image">
+                            <div class="placeholder-img"
+                                style="background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 99%, #fecfef 100%);">
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>E-Commerce Dashboard</h3>
+                            <p>A responsive dashboard concept for managing online store inventory and sales analytics.
+                            </p>
+                            <div class="tags">
+                                <span>UI/UX</span><span>Dashboard</span>
+                            </div>
+                            <a href="#" class="btn-link">View Project &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="container contact-container">
+                <div class="contact-content reveal">
+                    <h2 class="section-title">Let's Work Together</h2>
+                    <p>Have a project in mind or just want to say hi? I'd love to hear from you.</p>
+                    <a href="mailto:contact@saimalvi.com" class="btn-primary btn-large">Say Hello 👋</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Saim Alvi. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#">LinkedIn</a>
+                <a href="#">GitHub</a>
+                <a href="#">Twitter</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
